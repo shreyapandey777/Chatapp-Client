@@ -1,0 +1,125 @@
+#infobar,
+#send,
+#input,
+.message {
+  color: white;
+}
+
+#chatbox {
+  width: 45%;
+  margin: auto;
+  height: 70%;
+  overflow: hidden;
+}
+
+#infobar {
+  background: #2d72ee;
+  font-size: xx-large;
+  font-family: cursive;
+  font-style: italic;
+  padding: 2% 3%;
+  padding-top: 1%;
+  height: 12%;
+}
+.messages {
+  overflow: scroll;
+  height: 73%;
+  background-color: white;
+}
+.message-left {
+  margin: 2% 0;
+  margin-right: auto;
+  margin-left: 2%;
+  padding: 2%;
+  width: fit-content;
+  border-radius: 20px;
+  max-width: 70%;
+  font-family: cursive;
+}
+
+.message-right {
+  margin: 2% 0;
+  margin-right: 2%;
+  margin-left: auto;
+  padding: 2%;
+  width: fit-content;
+  border-radius: 20px;
+  max-width: 70%;
+  font-family: cursive;
+}
+
+#input {
+  display: flex;
+  height: 100%;
+}
+form {
+  height: 15%;
+  background-color: rgb(236, 236, 236);
+  border: 2px solid gray;
+}
+
+#input button {
+  display: inline-block;
+  width: 20%;
+  border-radius: 5px;
+  margin: 1% .5%;
+  padding: 2%;
+  border: none;
+  background: #1777dc;
+  color: white;
+  font-size: x-large;
+  font-style: italic;
+  font-family: cursive;
+}
+
+#input textarea {
+  resize: none;
+  width: 80%;
+  margin: 1%;
+  padding: 2%;
+  border-radius: 10px;
+  font-family: cursive;
+  display: inline-block;
+}
+
+#input textarea:focus {
+  outline: none;
+}
+
+.cbox {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex-direction: row;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#infosection {
+  width: 45%;
+  margin: auto;
+  height: 50%;
+}
+
+#infosection h2 {
+  color: white;
+  font-family: cursive;
+  font-style: italic;
+}
+.activeIcon {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: rgb(0, 255, 0);
+  margin: 0 2%;
+}
+
+#exit {
+  float: right;
+  width: max-content;
+  cursor: pointer;
+  color: white;
+}
